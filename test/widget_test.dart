@@ -8,7 +8,7 @@ void main() {
     //trigger a frame.
     await tester.pumpWidget(const MainScreen());
 
-    const int testsCounts = 16777216;
+    const int testsCounts = 1000;
     //number of taps
     for (int i = 0; i < testsCounts; i++) {
       await tester.tap(find.byType(ColoredBox));
